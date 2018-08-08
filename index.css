@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2A6CB6;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    -webkit-appearance: none;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 5px;
+  
+  }
+  
+  .header-container {
+    padding: 5px;
+    text-align: center;
+    font-size: 2vmax;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+  }
+  
+  
+  .start-menu-js {
+    order: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .start-menu-js > h1 {
+    font-size: 3vmax;
+    text-align: center;
+  }
+  
+  .start-menu-js > p {
+    margin-top: 5px;
+  }
+  
+  .start-quiz-button-js {
+    margin-left: 50px;
+   align-self: center;
+    width: 200px;
+  }
+  
+  .comic-footer {
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    position: fixed;
+    bottom: 0; 
+  }
+  
+  .footer-image {
+    height: 150px;
+  }
+  
+  .start-quiz-button-js{
+  font-size: 2vmax;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  text-decoration:none;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  
+  .start-quiz-button-js:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  }
+  
+  
+  .send-answer {
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;  
+  margin-top: 25px;
+  font-size: 20px;
+  }
+  
+  .send-answer:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+  }
+  
+  .quiz-form fieldset {
+    padding: 20px;
+     font-size: 2vmax;
+    border: none;
+  }
+  
+  
+  .correct-answer-layout {
+    font-size: 2vmax;
+    margin-top: 125px;
+    
+  }
+  
+  .correct-answer-layout > h2,
+  .wrong-answer-layout > h2 {
+    margin-bottom: 10px;
+  }
+  
+  .wrong-answer-layout {
+    font-size: 2vmax;
+    margin-top: 125px;
+  }
+  
+  
+  
+  .proceed-js {
+    font-size: 2vmax;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+  }
+  
+  .proceed-js:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+  }
+  
+  .restart-button {
+    font-size: 2vmax;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s; 
+  }
+  
+  .restart-button:hover {
+     color:#000000;
+    background-color:#FFFFFF;
+  }
+  
+  input[type=button] {
+    font-size: 20px;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    text-align:center;
+    transition: all 0.2s;
+    width: 300px;
+  }
+  
+  .active {
+    color:#000000;
+    background-color: #6D81BF;
+  }
+  
+  .results-page {
+    margin-top:100px;
+  }
+  //Prevents mobile from adding the hover effect
+  @media screen and (min-width: 800px) {
+    input[type=button]:hover {
+       color:#000000;
+    background-color:#FFFFFF;
+  }
+  
+  
